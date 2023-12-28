@@ -139,9 +139,13 @@ input {
 	padding: 10px 20px;
 	width: 100%;
 	border-radius: 8px;
+
 }
 
 .date {
+	text-align: center;
+}
+.date input{
 	text-align: center;
 }
 

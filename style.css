@@ -69,6 +69,12 @@ h3 {
 	text-align: center;
 }
 
+h3 span {
+	color: rgb(240, 120, 240);
+	font-family: "Source Code Pro", monospace;
+	text-transform: uppercase;
+}
+
 .time-cards {
 	display: flex;
 	justify-content: space-evenly;
@@ -132,6 +138,7 @@ input {
 	margin-bottom: 30px;
 	padding: 10px 20px;
 	width: 100%;
+	border-radius: 8px;
 }
 
 .date {
@@ -141,4 +148,7 @@ input {
 .save {
 	padding: 10px 20px;
 	cursor: pointer;
+	border-radius: 8px;
+	background-color: rgb(235, 169, 235);
+	font-weight: bold;
 }
